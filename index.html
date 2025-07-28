@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <meta charset="utf-8">
+    <meta name="theme-color" content="#000000">
+    <meta name="description" content="Applied Math and Computing Club (AMCC) is a Novi High School student organization dedicated to building the next generation of leaders in STEM">
+    <title>Novi AMCC</title>
+    <link rel="icon" type="image/x-icon" href="imgs/favicons/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Google+Sans+Code:ital,wght@0,300..800;1,300..800&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+
+<body>
+    <nav>
+        <div id="navbar">
+            <a class="home-holder click navbar-link code-font-bold brand-text" href="#support-us">
+                Donate
+            </a>
+            <a class="home-holder">
+                <div id="logo-holder">
+                    <img class="noselect" src="imgs/amcc-logo.png" width="50" height="50">
+                </div>
+                <div>
+                    <p class="code-font-bold brand-text noselect">Novi AMCC</p>
+                </div>
+            </a>
+            <a class="home-holder click navbar-button code-font-bold brand-text" target="_blank" href="https://novi.schoology.com/group/5505705678">
+                Join Today
+            </a>
+        </div>
+    </nav>
+
+    <div id="hero-holder">
+        <div class="hero-section text-hero-holder shift-top">
+            <div class="hero-text-holder">
+                <p id="hero-ani" class="hero-text code-font-bold"></p>
+            </div>
+            <p class="open-sans-reg hero-desc">Applied Math and Computing Club (AMCC) is a student-run organization at
+                Novi High School dedicated towards promoting skibidi toilet, sigma, and grow a garden on Roblox.</p>
+            <a class="hero-link code-font-bold click" target="_blank" href="https://novi.schoology.com/group/5505705678">Join the Schoology Group</a>
+            <a class="hero-link code-font-bold click" style="margin-top: 10px;" target="_blank" href="https://www.instagram.com/amcc_nhs/">Follow our Instagram</a>
+        </div>
+        <div class="hero-section text-hero-holder image-hero-holder">
+            <div class="image-holder">
+                <div class="img-slide fade">
+                    <img src="imgs/img1.png" class="hero-image">
+                </div>
+
+                <div class="img-slide fade">
+                    <img src="imgs/img2.png" class="hero-image">
+                </div>
+
+                <div class="img-slide fade">
+                    <img src="imgs/img3.png" class="hero-image">
+                </div>
+            </div>
+            <div class="dot-holder">
+                <span class="dot" onclick="currentSlide(0)"></span>
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="info-title-holder">
+        <p class="code-font-bold info-title">What We Do</p>
+    </div>
+
+    <div class="info-holder">
+        <div class="info-section">
+            <div class="info-text">
+                <p class="code-font-bold info-sec-title">M3 Challenge</p>
+                <p class="open-sans-reg info-desc">The Applied Math branch of the division works year-round to prepare
+                    for
+                    the M3 Challenge. The M3 Challenge is a 14-hour long math modelling competition. Teams are 5 of
+                    upperclassmen are formed to compete in this challenge, while
+                    underclassmen study and prepare for this challenge in future years.</p>
+            </div>
+            <div class="info-btn-holder">
+                <a class="hero-link info-link-btn code-font-bold click" target="_blank"
+                    href="https://m3challenge.siam.org/">Learn More &#10095;</a>
+            </div>
+        </div>
+        <div class="info-section">
+            <div class="info-text">
+                <p class="code-font-bold info-sec-title">Hackathons</p>
+                <p class="open-sans-reg info-desc">Hackathons are the major events in the Computer Science branch of
+                    AMCC.
+                    We aim for all members to participate, no matter their coding level or ability.
+                    Hackathons are usually centered around a specific theme, and
+                    students have to build a project around that theme within a certain time limit.</p>
+            </div>
+            <div class="info-btn-holder">
+                <a class="hero-link info-link-btn code-font-bold click" href="#hackathon-winners">Past Winners
+                    &#10095;</a>
+            </div>
+        </div>
+        <div class="info-section">
+            <div class="info-text">
+                <p class="code-font-bold info-sec-title">Guest Speakers</p>
+                <p class="open-sans-reg info-desc">AMCC aims to host 2 club meetings each year that feature a guest
+                    speaker.
+                    These meetings are an opportunity for students to hear from real professionals in the math and
+                    computing
+                    industries and ask any questions that they may have. We are always looking for future guest
+                    speakers!</p>
+            </div>
+            <div class="info-btn-holder">
+                <a class="hero-link info-link-btn code-font-bold click" href="#support-us">Be a Guest Speaker &#10095;</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="info-title-holder">
+        <p class="code-font-bold info-title">Spring 2025 Hackathon Winners</p>
+    </div>
+
+    <div id="hackathon-winners" class="info-holder">
+        <div class="info-section">
+            <div class="info-text">
+                <p class="code-font-bold info-sec-title">First Place</p>
+                <p class="open-sans-reg info-desc"><strong>AI thingy</strong><br>Spongebob Squarepants, Patrick
+                    Star<br>An app made with
+                    AI do to thing xyz</p>
+            </div>
+            <div class="info-btn-holder">
+                <a class="hero-link info-link-btn code-font-bold click" target="_blank">Project Link &#10095;</a>
+            </div>
+        </div>
+        <div class="info-section">
+            <div class="info-text">
+                <p class="code-font-bold info-sec-title">Second Place</p>
+                <p class="open-sans-reg info-desc"><strong>Vocab Vault</strong><br>Hudson Zhao<br>A free to use website
+                    that helps you
+                    study vocab, faster</p>
+            </div>
+            <div class="info-btn-holder">
+                <a class="hero-link info-link-btn code-font-bold click" target="_blank"
+                    href="https://vocabvault.app">Project Link &#10095;</a>
+            </div>
+        </div>
+        <div class="info-section">
+            <div class="info-text">
+                <p class="code-font-bold info-sec-title">Third Place</p>
+                <p class="open-sans-reg info-desc"><strong>Scheduling thingy</strong><br>Sandy and Plankton<br>A cool
+                    scheduling thingy
+                    that I forgot what hapenned</p>
+            </div>
+            <div class="info-btn-holder">
+                <a class="hero-link info-link-btn code-font-bold click" target="_blank">Project Link &#10095;</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="info-title-holder">
+        <p class="code-font-bold info-title">24-25 Officers</p>
+    </div>
+
+    <div class="ofc-holder">
+        <div class="ofc-section">
+            <div class="ofc-img-holder">
+                <img src="imgs/ofc1.png" class="ofc-img">
+            </div>
+            <div class="ofc-text-holder">
+                <p class="ofc-text open-sans-reg"><strong>Hudson Zhao</strong></p>
+                <p class="ofc-text open-sans-reg">Applied Math Lead</p>
+            </div>
+        </div>
+        <div class="ofc-section">
+            <div class="ofc-img-holder">
+                <img src="imgs/ofc2.png" class="ofc-img">
+            </div>
+            <div class="ofc-text-holder">
+                <p class="ofc-text open-sans-reg"><strong>William Li</strong></p>
+                <p class="ofc-text open-sans-reg">Applied Math Lead</p>
+            </div>
+        </div>
+        <div class="ofc-section">
+            <div class="ofc-img-holder">
+                <img src="imgs/ofc3.png" class="ofc-img">
+            </div>
+            <div class="ofc-text-holder">
+                <p class="ofc-text open-sans-reg"><strong>Ethan Varghese</strong></p>
+                <p class="ofc-text open-sans-reg">Applied Math Lead</p>
+            </div>
+        </div>
+        <div class="ofc-section">
+            <div class="ofc-img-holder">
+                <img src="imgs/ofc4.png" class="ofc-img">
+            </div>
+            <div class="ofc-text-holder">
+                <p class="ofc-text open-sans-reg"><strong>Guru Raiyani</strong></p>
+                <p class="ofc-text open-sans-reg">Computer Science Lead</p>
+            </div>
+        </div>
+        <div class="ofc-section">
+            <div class="ofc-img-holder">
+                <img src="imgs/ofc5.png" class="ofc-img">
+            </div>
+            <div class="ofc-text-holder">
+                <p class="ofc-text open-sans-reg"><strong>Sarthak Tayal</strong></p>
+                <p class="ofc-text open-sans-reg">Computer Science Lead</p>
+            </div>
+        </div>
+        <div class="ofc-section">
+            <div class="ofc-img-holder">
+                <img src="imgs/ofc6.png" class="ofc-img">
+            </div>
+            <div class="ofc-text-holder">
+                <p class="ofc-text open-sans-reg"><strong>Adit Venkannagari</strong></p>
+                <p class="ofc-text open-sans-reg">Computer Science Lead</p>
+            </div>
+        </div>
+        <div class="ofc-section">
+            <div class="ofc-img-holder">
+                <img src="imgs/ofc7.png" class="ofc-img">
+            </div>
+            <div class="ofc-text-holder">
+                <p class="ofc-text open-sans-reg"><strong>Sritha Natala</strong></p>
+                <p class="ofc-text open-sans-reg">Treasurer</p>
+            </div>
+        </div>
+        <div class="ofc-section">
+            <div class="ofc-img-holder">
+                <img src="imgs/ofc8.png" class="ofc-img">
+            </div>
+            <div class="ofc-text-holder">
+                <p class="ofc-text open-sans-reg"><strong>Sahasara Kaza</strong></p>
+                <p class="ofc-text open-sans-reg">Secertary</p>
+            </div>
+        </div>
+        <div class="ofc-section">
+            <div class="ofc-img-holder">
+                <img src="imgs/ofc9.png" class="ofc-img">
+            </div>
+            <div class="ofc-text-holder">
+                <p class="ofc-text open-sans-reg"><strong>Rujula Yeole</strong></p>
+                <p class="ofc-text open-sans-reg">Secertary</p>
+            </div>
+        </div>
+        <div class="ofc-section">
+            <div class="ofc-img-holder">
+                <img src="imgs/ofc10.png" class="ofc-img">
+            </div>
+            <div class="ofc-text-holder">
+                <p class="ofc-text open-sans-reg"><strong>Divya Nema</strong></p>
+                <p class="ofc-text open-sans-reg">Communications Director</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="info-title-holder">
+        <p class="code-font-bold info-title">Supporting AMCC</p>
+    </div>
+
+
+    <div id="support-us" class="support-holder">
+        <p class="open-sans-reg hero-desc">Are you an industry professional passionate about building the next generation of leaders? If so, supporting AMCC is the right choice for you. We are always looking for guest speakers and experts in their fields to come mentor our club members. We are also looking for financial donations to help keep our club operating. If you are interested in supporting AMCC in any way, please email us at skibidi@skibidisigma.com</p>
+    </div>
+
+    <div class="footer">
+        <div class="footer-sec">
+            <p class="open-sans-reg footer-text">This is a school club at Novi High School</p>
+            <p class="open-sans-reg footer-text">Club Sponsor: Nicole Stawasz</p>
+        </div>
+        <div class="footer-sec">
+            <p class="open-sans-reg footer-text right-text">Website Designer: Hudson Zhao</p>
+            <p class="open-sans-reg footer-text right-text">Check out my other projects on <strong><a style="color: white" target="_blank" href="https://github.com/squidwardschair">Github</a></strong></p>
+        </div>
+    </div>
+    <script src="https://unpkg.com/typeit@8.7.1/dist/index.umd.js"></script>
+    <script src="script.js"></script>
+
+</body>
