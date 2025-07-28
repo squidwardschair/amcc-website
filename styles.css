@@ -5,7 +5,7 @@ body {
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .code-font-bold {
@@ -182,9 +182,9 @@ img {
   padding: 10px;
   width: fit-content;
   font-weight: bold;
-@media only screen and (max-width: 425px) {
-        font-size: 1.25rem;
-}
+  @media only screen and (max-width: 425px) {
+    font-size: 1.25rem;
+  }
 }
 
 .hero-link:hover {
@@ -318,38 +318,37 @@ mark {
   @media only screen and (max-width: 768px) {
     width: 90%;
   }
-
 }
 
 .info-sec-title {
-    color: white;
-    font-size: 1.5rem;
-    margin: 0;
-    text-align: center;
+  color: white;
+  font-size: 1.5rem;
+  margin: 0;
+  text-align: center;
 }
 
 .info-title {
-    color: #1948a0;
-    font-size: 3rem;
-    text-align: center;
-    margin: 0;
+  color: #1948a0;
+  font-size: 3rem;
+  text-align: center;
+  margin: 0;
 }
 
 .info-desc {
-    color: #edf3fc;
-    text-align: center;
-    margin: 0;
-    font-size: 1.25rem;
-    margin-top: 10px;
-    margin-bottom: 20px;
+  color: #edf3fc;
+  text-align: center;
+  margin: 0;
+  font-size: 1.25rem;
+  margin-top: 10px;
+  margin-bottom: 20px;
 }
 
 .info-link-btn {
-    font-size: 1.15rem;
-    margin-top: auto;
-    background-color: #d9e2f3;
-    border-color: #d9e2f3;
-    color: #1948a0;
+  font-size: 1.15rem;
+  margin-top: auto;
+  background-color: #d9e2f3;
+  border-color: #d9e2f3;
+  color: #1948a0;
 }
 
 .info-link-btn:hover {
@@ -358,15 +357,15 @@ mark {
 }
 
 .info-text {
-    justify-content: normal;
+  justify-content: normal;
 }
 
 .info-btn-holder {
-    height: fit-content;
+  height: fit-content;
 }
 
 .ofc-holder {
- width: calc(100% - 20px);
+  width: calc(100% - 20px);
   padding: 10px;
   display: flex;
   justify-content: space-evenly;
@@ -387,7 +386,6 @@ mark {
 
   @media only screen and (max-width: 1145px) {
     height: calc((20vw - 40px) * 1.6);
-
   }
   @media only screen and (max-width: 1024px) {
     width: calc(20vw - 20px);
@@ -403,66 +401,65 @@ mark {
     width: calc(44vw);
     height: calc((44vw) * 2);
   }
-
 }
 
 .ofc-img-holder {
-  width: 90%;;
+  width: 90%;
   height: 80%;
 }
 
 .ofc-img {
-    object-fit: cover;
-    width: 100%;
-    height: 100%;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
 }
 
 .ofc-text {
-    color: white;
-    margin: 0;
-    text-align: center;
+  color: white;
+  margin: 0;
+  text-align: center;
 }
 
 .ofc-text-holder {
-    height: 30%;
-    align-content: center;
+  height: 20%;
+  align-content: center;
 }
 
 .support-holder {
-    padding-left: 20px;
-    padding-right: 20px;
-    text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
 }
 
 .footer {
-    background-color: #1948a0;
-    padding: 20px;
-    display: flex;
-    justify-content: space-between;
-    @media only screen and (max-width: 768px) {
-        flex-flow: column;
-        align-items: center;
-    }
+  background-color: #1948a0;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  @media only screen and (max-width: 768px) {
+    flex-flow: column;
+    align-items: center;
+  }
 }
 
 .footer-text {
-    color: white;
-    margin: 0;
-    @media only screen and (max-width: 768px) {
-        text-align: center;
-    }
+  color: white;
+  margin: 0;
+  @media only screen and (max-width: 768px) {
+    text-align: center;
+  }
 }
 
 .right-text {
-    text-align: right;
-    @media only screen and (max-width: 768px) {
-        text-align: center;
-    }
+  text-align: right;
+  @media only screen and (max-width: 768px) {
+    text-align: center;
+  }
 }
 
 .footer-sec {
-    @media only screen and (max-width: 768px) {
-        margin-top: 5px;
-        margin-bottom: 5px;
-    }
+  @media only screen and (max-width: 768px) {
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
 }
