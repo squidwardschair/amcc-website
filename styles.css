@@ -397,7 +397,7 @@ mark {
     height: calc((33vw - 20px) * 2);
   }
 
-  @media only screen and (max-width: 425px) {
+  @media only screen and (max-width: 540px) {
     width: calc(44vw);
     height: calc((44vw) * 2);
   }
